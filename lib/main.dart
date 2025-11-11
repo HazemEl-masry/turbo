@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:turbo/config/router/app_router.dart';
+import 'package:turbo/config/router/routs.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,6 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       onGenerateRoute: AppRouter().onGenerateRoute,
+      initialRoute: Routs.login,
       home: const Scaffold(),
     );
   }
