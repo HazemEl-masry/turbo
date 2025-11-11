@@ -33,6 +33,7 @@ dependencies:
   flutter:
     sdk: flutter
   retrofit: ^4.9.0
+  retrofit_generator: ^10.1.4
 
 dev_dependencies:
   flutter_lints: ^5.0.0
