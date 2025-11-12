@@ -28,11 +28,13 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
+  build_runner: ^2.10.2
   cupertino_icons: ^1.0.8
   dio: ^5.9.0
   flutter:
     sdk: flutter
   flutter_bloc: ^9.1.1
+  get_it: ^9.0.5
   retrofit: ^4.9.0
   retrofit_generator: ^10.1.4
 
